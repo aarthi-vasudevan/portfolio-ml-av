@@ -126,6 +126,64 @@ ul li::marker {
   color: #f9a48e; /* Set the color of the bullet */
 }
 
+
+
+.dropdown-menu {
+  background: linear-gradient(#f9a48e 0%, #222222 80%);
+  font-size: 16px; /* Adjust the font size */
+  margin-top: 0px; /* Add margin space at the top */
+  margin-left: -110px; /* Adjusted margin to position to the left */
+  text-transform: uppercase;
+  border-radius: 0.25rem; /* Add border radius */
+  padding-top: 10px;
+}
+
+.dropdown-menu a {
+  color: #000000; /* Black font color */
+  padding: 0.5rem 1rem; /* Padding */
+}
+
+.dropdown-toggle::after {
+  position: absolute; /* Position the caret */
+  top: 50%; /* Vertically center the caret */
+  right: 20px; /* Adjust the distance from the right edge */
+  transform: translateY(-50%); /* Adjust the vertical position */
+  display: none;
+}
+
+
+.dropdown-menu {
+  background-color: #fff; /* White background */
+  box-shadow: 0px 5px 25px 0px rgba(0, 0, 0, 0.2) !important; /* Shadow */
+  font-size: 16px; /* Adjust the font size */
+  text-transform: uppercase;
+  border-radius: 0.25rem; /* Add border radius */
+  padding: 10px; /* Padding */
+  margin-top: 10px;
+}
+
+.dropdown-menu a {
+  color: #000; /* Black font color */
+  display: block; /* Make anchor tags display as block */
+  padding: 8px 12px; /* Padding */
+  text-decoration: none; /* Remove underline */
+}
+
+.dropdown-menu a:hover {
+  background-color: black; /* Hover background color */
+}
+
+
+
+
+.dropdown-menu.container-fluid.show::before {
+  /* Adjust the position of the caret */
+  top: 3px; /* Example: Move the caret 10 pixels down from its default position */
+  left: 83%; /* Example: Center the caret horizontally */
+  transform: translateX(-50%); /* Example: Adjust horizontal position to center */
+  /* display: none; */
+}
+
  /* Added */
 
 
@@ -2736,7 +2794,7 @@ body {
   box-shadow: 0px 10px 50px 0px rgba(0, 0, 0, 0.2);
   border-radius: 0.125rem;
   transition: all 150ms linear;
-  font-size: 14px; }
+  font-size: 12px; }
   .dropdown-menu.dropdown-menu-right:before {
     left: auto;
     right: 10px; }
