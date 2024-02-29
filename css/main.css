@@ -174,14 +174,16 @@ ul li::marker {
 }
 
 
-
-
 .dropdown-menu.container-fluid.show::before {
   /* Adjust the position of the caret */
   top: 3px; /* Example: Move the caret 10 pixels down from its default position */
   left: 83%; /* Example: Center the caret horizontally */
   transform: translateX(-50%); /* Example: Adjust horizontal position to center */
   /* display: none; */
+}
+
+.progress-badge {
+  font-weight: bold;
 }
 
  /* Added */
